@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 450px;
+  width: 100%;
+  height: 8vh;
+  bottom: 0;
+  position: fixed;
+  background: var(--main-color);
+  background: linear-gradient(
+    0deg,
+    var(--main-color) 0%,
+    var(--light-color) 80%
+  );
+  color: var(--inner-text-color);
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon i {
+  font-size: 1.4rem;
+}
+
+.activeicon {
+  font-size: 2rem;
+  margin: 5px;
+  color: white;
+}
